@@ -10,9 +10,6 @@
   - **Cyclic**
   - **Qualified**
 
-
-So how to run : 
-
 ### 1. Simple module
 
   Compile :
