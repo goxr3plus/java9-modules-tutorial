@@ -1,5 +1,8 @@
 # java-modules-examples
 
+![Logging-Sins-793x397](https://user-images.githubusercontent.com/20374208/58885740-674c4900-86eb-11e9-9448-b0af3d8b52c0.png)
+
+
 - **Categories**
   - **Simple module**
   - **Optional**
