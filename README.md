@@ -3,11 +3,13 @@
 
 Here you will find 4 different folders each one representing a different example of java modules :
 
-1. Very simple module 
-2. Optional
-3. Transitive
-4. Cyclic
-5. Qualified
+- **Categories**
+  - 1. Very simple module 
+  - 2. Optional
+  - 3. Transitive
+  - 4. Cyclic
+  - 5. Qualified
+
 
 So how to run : 
 
