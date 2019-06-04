@@ -33,6 +33,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 ### 3. Transitive 
  
   **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
+  
   Compile :
 > javac --module-source-path transitive_module -d out3 -m moduleA,moduleB,moduleC
 
