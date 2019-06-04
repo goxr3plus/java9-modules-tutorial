@@ -1,8 +1,7 @@
 # java-modules-examples
-**(  Very Simple Module , Optional , Transitive , Cyclic , Qualified )**
 
 - **Categories**
-  - **Very simple module**
+  - **Simple module**
   - **Optional**
   - **Transitive**
   - **Cyclic**
@@ -11,7 +10,7 @@
 
 So how to run : 
 
-### 1. Very Simple module
+### 1. Simple module
 
   Compile :
 > javac --module-source-path simple_module -d out1 -m moduleA
