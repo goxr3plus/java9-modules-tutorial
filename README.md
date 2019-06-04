@@ -10,6 +10,8 @@
   - **Cyclic**
   - **Qualified**
 
+Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
+
 ### 1. Simple module
 
   Compile :
