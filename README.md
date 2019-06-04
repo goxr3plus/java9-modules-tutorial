@@ -2,11 +2,11 @@
 **(  Very Simple Module , Optional , Transitive , Cyclic , Qualified )**
 
 - **Categories**
-  - 1. Very simple module 
-  - 2. Optional
-  - 3. Transitive
-  - 4. Cyclic
-  - 5. Qualified
+  - **Very simple module**
+  - **Optional**
+  - **Transitive**
+  - **Cyclic**
+  - **Qualified**
 
 
 So how to run : 
