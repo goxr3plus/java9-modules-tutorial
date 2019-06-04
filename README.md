@@ -1,7 +1,5 @@
 # java-modules-examples
-(  Transitive , Optional , Cyclic , Qualified ) 
-
-Here you will find 4 different folders each one representing a different example of java modules :
+**(  Very Simple Module , Optional , Transitive , Cyclic , Qualified )**
 
 - **Categories**
   - 1. Very simple module 
@@ -32,10 +30,9 @@ So how to run :
 
 
 ### 3. Transitive 
-
+ 
+  **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
   Compile :
-> Be careful not spaces are allowed between (moduleA,moduleB,moduleC)
-
 > javac --module-source-path transitive_module -d out3 -m moduleA,moduleB,moduleC
 
 
