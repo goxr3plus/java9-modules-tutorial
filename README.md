@@ -28,7 +28,7 @@ So how to run :
 > javac --module-source-path optional_module -d out2 -m moduleA,moduleB
 
   Run :
-> java --module-path out1 -m moduleB/pack2.Main
+> java --module-path out2 -m moduleB/pack2.Main
 
 
 ### 3. Transitive 
