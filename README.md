@@ -63,7 +63,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 ---
 ### 4. Cyclic 
 
-![chrome_2019-06-05_11-26-54](https://user-images.githubusercontent.com/20374208/58941624-d3c75680-8784-11e9-8dd3-6d4982f6be4e.png)
+![chrome_2019-06-05_11-32-23](https://user-images.githubusercontent.com/20374208/58942031-a038fc00-8785-11e9-802d-7349461d92fc.png)
+![chrome_2019-06-05_11-32-32](https://user-images.githubusercontent.com/20374208/58942032-a0d19280-8785-11e9-9c9c-c1ed6abdf6c1.png)
 
 ``` JAVA
  module moduleA{
