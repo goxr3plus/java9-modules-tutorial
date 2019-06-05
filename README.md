@@ -12,6 +12,9 @@
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
 
+![chrome_2019-06-05_11-35-10](https://user-images.githubusercontent.com/20374208/58942200-fd34b200-8785-11e9-8f9c-dcb1aec1cf24.png)
+
+
 ---
 ### 1. Simple module
 
@@ -77,7 +80,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 ``` JAVA
  module moduleB{
   
-  requires modeuleA;
+  requires moduleA;
   
  }
 ```
