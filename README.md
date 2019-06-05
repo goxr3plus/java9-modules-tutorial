@@ -44,14 +44,32 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ### 4. Cyclic 
 
-//TODO
+![chrome_2019-06-05_11-20-13](https://user-images.githubusercontent.com/20374208/58941224-002ea300-8784-11e9-9627-dec5d61b8069.png)
+
+``` JAVA
+ module moduleA{
+  
+  requires moduleB;
+  
+ }
+```
+
+``` JAVA
+ module moduleB{
+  
+  requires modeuleA;
+  
+ }
+```
 
   Compile :
->
+> javac  --module-source-path src -d out -m moduleA,moduleB
 
-  Run :
-> 
+This will produce the following error :
 
+``` JAVA
+error: cyclic dependence involving moduleA requires moduleA;
+```
 
 ### 5. Qualified 
 
