@@ -12,6 +12,7 @@
   - **Qualified**
   - **Observable**
   - **Aggregator**
+  - **Module Graph**
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
 
@@ -165,6 +166,11 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 ---
 # 7. Aggregator 
+
+//TODO
+
+---
+# 8. Module Graph 
 
 //TODO
 
