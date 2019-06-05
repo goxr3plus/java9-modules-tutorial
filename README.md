@@ -92,22 +92,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ![chrome_2019-06-05_11-32-23](https://user-images.githubusercontent.com/20374208/58942031-a038fc00-8785-11e9-802d-7349461d92fc.png)
 ![chrome_2019-06-05_11-32-32](https://user-images.githubusercontent.com/20374208/58942032-a0d19280-8785-11e9-9c9c-c1ed6abdf6c1.png)
-
-``` JAVA
- module moduleA{
-  
-  requires moduleB;
-  
- }
-```
-
-``` JAVA
- module moduleB{
-  
-  requires moduleA;
-  
- }
-```
+![2019-06-05_13-52-25](https://user-images.githubusercontent.com/20374208/58951203-290d6300-8799-11e9-84b9-91ec28e6939f.png)
 
   Compile :
   
