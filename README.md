@@ -25,9 +25,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 # 1. Simple module
 
 ![chrome_2019-06-05_11-43-36](https://user-images.githubusercontent.com/20374208/58942863-433e4580-8787-11e9-829d-cda9256aaef9.png)
-
-![chrome_2019-06-05_11-43-50](https://user-images.githubusercontent.com/20374208/58942864-433e4580-8787-11e9-9314-57b16f55a7ed.png)
-![chrome_2019-06-05_11-44-17](https://user-images.githubusercontent.com/20374208/58942865-43d6dc00-8787-11e9-982f-f811fe625d1a.png)
+![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954143-f9faef80-87a0-11e9-8e8c-452c2511be3f.png)
+![chrome_2019-06-05_14-47-58](https://user-images.githubusercontent.com/20374208/58954144-f9faef80-87a0-11e9-8cfd-7376aa3816dd.png)
 
 ##### Ps i have provided all the code in folders so you don't have to manually type it ;)
 
@@ -112,13 +111,51 @@ error: cyclic dependence involving moduleA requires moduleA;
 # 5. Qualified 
 
 ![chrome_2019-06-05_13-53-55](https://user-images.githubusercontent.com/20374208/58951282-5eb24c00-8799-11e9-8805-96f8d9f2bcb1.png)
+![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954268-5c53f000-87a1-11e9-886e-2316b1390602.png)
+![chrome_2019-06-05_14-52-15](https://user-images.githubusercontent.com/20374208/58954318-85748080-87a1-11e9-9783-f5a824174da2.png)
 
 
-  Compile :
-> //TODO
+  Compile : 
+  ``` JAVA 
+  javac --module-source-path qualified_module -d out5 -m exporterModule,moduleA,moduleB
+  ```
+  
+  The error:
+  
+  ``` JAVA 
+   error: package pack2 is not visible
+            import pack2.B;
+                   ^
+          (package pack2 is declared in module exporterModule, which does not export it to module moduleB)
+          1 error
+  ```
+  
+  How to solve :
+  Well as we can see that error happens because inside our **exporterModule** we allow access to **pack2** only for **moduleA** :
+  
+  ![chrome_2019-06-05_14-42-10](https://user-images.githubusercontent.com/20374208/58953810-29f5c300-87a0-11e9-8a89-ff9c796ebed4.png)
 
-  Run :
-> //TODO
+
+  Do you want to fix it ? 
+  
+  Simply **export pack2 for moduleB also** like this :
+
+
+  ``` JAVA
+  export pack2 to moduleA,moduleB;
+  
+  ```
+  
+  Okay but now how to run sir ?
+
+ ``` JAVA
+  java --module-path out5 -m moduleA/pack1.Test
+ ```
+  
+ ``` JAVA
+  java --module-path out5 -m moduleB/pack1.Test
+ ```
+  
 
 
 
