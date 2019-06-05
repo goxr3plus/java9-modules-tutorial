@@ -139,11 +139,11 @@ error: cyclic dependence involving moduleA requires moduleA;
 
   Do you want to fix it ? 
   
-  Simply *export pack2 for moduleB also* like this :
+  Simply **export pack2 for moduleB also** like this :
 
 
   ``` JAVA
-  export pack2 to moduleA,moduleB
+  export pack2 to moduleA,moduleB;
   
   ```
   
