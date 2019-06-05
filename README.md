@@ -132,7 +132,8 @@ error: cyclic dependence involving moduleA requires moduleA;
   ```
   
   How to solve :
-  Well as we can see that error happens because inside our **exporterModule** we allow access to **pack2** only for moduleA :
+  Well as we can see that error happens because inside our **exporterModule** we allow access to **pack2** only for **moduleA** :
+  
   ![chrome_2019-06-05_14-42-10](https://user-images.githubusercontent.com/20374208/58953810-29f5c300-87a0-11e9-8a89-ff9c796ebed4.png)
 
 
@@ -148,10 +149,13 @@ error: cyclic dependence involving moduleA requires moduleA;
   
   Okay but now how to run sir ?
 
+ ``` JAVA
+  java --module-path out5 -m moduleA/pack1.Test
+ ```
   
- > java --module-path out5 -m moduleA/pack1.Test
-   and 
- > java --module-path out5 -m moduleB/pack1.Test
+ ``` JAVA
+  java --module-path out5 -m moduleB/pack1.Test
+ ```
   
 
 
