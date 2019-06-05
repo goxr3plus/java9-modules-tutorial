@@ -44,7 +44,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ### 4. Cyclic 
 
-![chrome_2019-06-05_11-20-13](https://user-images.githubusercontent.com/20374208/58941224-002ea300-8784-11e9-9627-dec5d61b8069.png)
+![chrome_2019-06-05_11-26-54](https://user-images.githubusercontent.com/20374208/58941624-d3c75680-8784-11e9-8dd3-6d4982f6be4e.png)
 
 ``` JAVA
  module moduleA{
@@ -70,6 +70,8 @@ This will produce the following error :
 ``` JAVA
 error: cyclic dependence involving moduleA requires moduleA;
 ```
+
+![chrome_2019-06-05_11-26-05](https://user-images.githubusercontent.com/20374208/58941549-b6928800-8784-11e9-856f-8914ac6f3779.png)
 
 ### 5. Qualified 
 
