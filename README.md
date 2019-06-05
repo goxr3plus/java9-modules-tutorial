@@ -1,6 +1,7 @@
 # Examples from Java 9 ++ modules
 
 ![Logging-Sins-793x397](https://user-images.githubusercontent.com/20374208/58885740-674c4900-86eb-11e9-9448-b0af3d8b52c0.png)
+### Complety PDF with tutorial [download](https://github.com/goxr3plus/java9-modules-tutorial/files/3256292/JPMS.PDF)
 
 
 - **Categories**
