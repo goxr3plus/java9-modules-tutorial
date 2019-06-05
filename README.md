@@ -18,7 +18,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   
   ``` JAVA
    javac --module-source-path simple_module -d out1 -m moduleA
-  ``` JAVA
+  ``` 
 
   Run :
   
