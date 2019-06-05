@@ -12,12 +12,13 @@
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
 
+---
 ### 1. Simple module
 
   Compile :
   
   ``` JAVA
-   javac --module-source-path simple_module -d out1 -m moduleA
+  javac --module-source-path simple_module -d out1 -m moduleA
   ``` 
 
   Run :
@@ -26,7 +27,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   java --module-path out1 -m moduleA/pack1.Main
   ```
 
-
+---
 ### 2. Optional 
 
   Compile :
@@ -41,7 +42,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   java --module-path out2 -m moduleB/pack2.Main
   ```
 
-
+---
 ### 3. Transitive 
  
   **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
@@ -59,7 +60,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   java --module-path out3 -m moduleC/pack3.Main
  ```
 
-
+---
 ### 4. Cyclic 
 
 ![chrome_2019-06-05_11-26-54](https://user-images.githubusercontent.com/20374208/58941624-d3c75680-8784-11e9-8dd3-6d4982f6be4e.png)
@@ -94,6 +95,7 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 ![chrome_2019-06-05_11-26-05](https://user-images.githubusercontent.com/20374208/58941549-b6928800-8784-11e9-856f-8914ac6f3779.png)
 
+---
 ### 5. Qualified 
 
 //TODO
