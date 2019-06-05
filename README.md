@@ -15,19 +15,31 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 ### 1. Simple module
 
   Compile :
-> javac --module-source-path simple_module -d out1 -m moduleA
+  
+  ``` JAVA
+   javac --module-source-path simple_module -d out1 -m moduleA
+  ``` JAVA
 
   Run :
-> java --module-path out1 -m moduleA/pack1.Main
+  
+  ``` JAVA
+  java --module-path out1 -m moduleA/pack1.Main
+  ```
 
 
 ### 2. Optional 
 
   Compile :
-> javac --module-source-path optional_module -d out2 -m moduleA,moduleB
+  
+  ``` JAVA
+  javac --module-source-path optional_module -d out2 -m moduleA,moduleB
+  ```
 
   Run :
-> java --module-path out2 -m moduleB/pack2.Main
+  
+  ``` JAVA
+  java --module-path out2 -m moduleB/pack2.Main
+  ```
 
 
 ### 3. Transitive 
@@ -35,11 +47,17 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
   
   Compile :
-> javac --module-source-path transitive_module -d out3 -m moduleA,moduleB,moduleC
+  
+ ``` JAVA
+ javac --module-source-path transitive_module -d out3 -m moduleA,moduleB,moduleC
+ ```
 
 
   Run :
-> java --module-path out3 -m moduleC/pack3.Main
+  
+  ``` JAVA
+  java --module-path out3 -m moduleC/pack3.Main
+ ```
 
 
 ### 4. Cyclic 
@@ -64,7 +82,9 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
   Compile :
   
-``` JAVA javac  --module-source-path src -d out -m moduleA,moduleB ```
+``` JAVA
+javac  --module-source-path src -d out -m moduleA,moduleB
+```
 
 This will produce the following error :
 
