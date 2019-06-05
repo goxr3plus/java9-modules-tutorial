@@ -112,6 +112,8 @@ error: cyclic dependence involving moduleA requires moduleA;
 # 5. Qualified 
 
 ![chrome_2019-06-05_13-53-55](https://user-images.githubusercontent.com/20374208/58951282-5eb24c00-8799-11e9-8805-96f8d9f2bcb1.png)
+![Uploading chrome_2019-06-05_14-47-44.png…]()
+![Uploading chrome_2019-06-05_14-47-58.png…]()
 
 
   Compile : 
@@ -123,7 +125,7 @@ error: cyclic dependence involving moduleA requires moduleA;
   
   ``` JAVA 
    error: package pack2 is not visible
-            import pack2.Func2;
+            import pack2.B;
                    ^
           (package pack2 is declared in module exporterModule, which does not export it to module moduleB)
           1 error
@@ -134,7 +136,22 @@ error: cyclic dependence involving moduleA requires moduleA;
   ![chrome_2019-06-05_14-42-10](https://user-images.githubusercontent.com/20374208/58953810-29f5c300-87a0-11e9-8a89-ff9c796ebed4.png)
 
 
+  Do you want to fix it ? 
   
+  Simply *export pack2 for moduleB also* like this :
+
+
+  ``` JAVA
+  export pack2 to moduleA,moduleB
+  
+  ```
+  
+  Okay but now how to run sir ?
+
+  
+ > java --module-path out5 -m moduleA/pack1.Test
+   and 
+ > java --module-path out5 -m moduleB/pack1.Test
   
 
 
