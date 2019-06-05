@@ -63,7 +63,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 ```
 
   Compile :
-> javac  --module-source-path src -d out -m moduleA,moduleB
+  
+``` JAVA javac  --module-source-path src -d out -m moduleA,moduleB ```
 
 This will produce the following error :
 
