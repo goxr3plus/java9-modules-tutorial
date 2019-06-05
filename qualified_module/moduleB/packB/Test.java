@@ -1,8 +1,8 @@
 package packB;
 
-import pack1.Func1;
-import pack2.Func2;
-import pack3.Func3;
+import pack1.A;
+import pack2.B;
+import pack3.C;
 
 public class Test{
 
