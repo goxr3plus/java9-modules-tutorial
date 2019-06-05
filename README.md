@@ -25,9 +25,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 # 1. Simple module
 
 ![chrome_2019-06-05_11-43-36](https://user-images.githubusercontent.com/20374208/58942863-433e4580-8787-11e9-829d-cda9256aaef9.png)
-
-![chrome_2019-06-05_11-43-50](https://user-images.githubusercontent.com/20374208/58942864-433e4580-8787-11e9-9314-57b16f55a7ed.png)
-![chrome_2019-06-05_11-44-17](https://user-images.githubusercontent.com/20374208/58942865-43d6dc00-8787-11e9-982f-f811fe625d1a.png)
+![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954143-f9faef80-87a0-11e9-8e8c-452c2511be3f.png)
+![chrome_2019-06-05_14-47-58](https://user-images.githubusercontent.com/20374208/58954144-f9faef80-87a0-11e9-8cfd-7376aa3816dd.png)
 
 ##### Ps i have provided all the code in folders so you don't have to manually type it ;)
 
@@ -112,8 +111,9 @@ error: cyclic dependence involving moduleA requires moduleA;
 # 5. Qualified 
 
 ![chrome_2019-06-05_13-53-55](https://user-images.githubusercontent.com/20374208/58951282-5eb24c00-8799-11e9-8805-96f8d9f2bcb1.png)
-![Uploading chrome_2019-06-05_14-47-44.png…]()
-![Uploading chrome_2019-06-05_14-47-58.png…]()
+![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954268-5c53f000-87a1-11e9-886e-2316b1390602.png)
+![chrome_2019-06-05_14-47-58](https://user-images.githubusercontent.com/20374208/58954271-5cec8680-87a1-11e9-9857-a84c28d1c1d3.png)
+
 
 
   Compile : 
