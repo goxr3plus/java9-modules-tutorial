@@ -44,7 +44,14 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   ```
 
 ---
-### 2. Optional 
+### 2. Optional
+
+![chrome_2019-06-05_13-44-20](https://user-images.githubusercontent.com/20374208/58950802-3e35c200-8798-11e9-816b-f8305c705c10.png)
+![chrome_2019-06-05_13-44-50](https://user-images.githubusercontent.com/20374208/58950804-3e35c200-8798-11e9-923f-f17982cc24ed.png)
+![chrome_2019-06-05_13-45-15](https://user-images.githubusercontent.com/20374208/58950805-3ece5880-8798-11e9-9659-456fcc98c259.png)
+![chrome_2019-06-05_13-45-28](https://user-images.githubusercontent.com/20374208/58950806-3ece5880-8798-11e9-985e-5bade3de14af.png)
+![chrome_2019-06-05_13-45-42](https://user-images.githubusercontent.com/20374208/58950807-3ece5880-8798-11e9-9316-eb79c3fca4bc.png)
+
 
   Compile :
   
@@ -60,8 +67,12 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ---
 ### 3. Transitive 
+
+![chrome_2019-06-05_13-36-59](https://user-images.githubusercontent.com/20374208/58950535-b780e500-8797-11e9-8af0-34e5bf10a33d.png)
+![chrome_2019-06-05_13-37-16](https://user-images.githubusercontent.com/20374208/58950537-b780e500-8797-11e9-9016-54cada9774b8.png)
+![chrome_2019-06-05_13-41-54](https://user-images.githubusercontent.com/20374208/58950538-b780e500-8797-11e9-900c-89eca1165b5a.png)
  
-  **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
+ **Be careful not spaces are allowed between (moduleA,moduleB,moduleC)**
   
   Compile :
   
