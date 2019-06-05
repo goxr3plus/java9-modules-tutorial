@@ -101,7 +101,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   Compile :
   
 ``` JAVA
-javac  --module-source-path src -d out -m moduleA,moduleB
+javac  --module-source-path cyclic_module -d out4 -m moduleA,moduleB
 ```
 
 This will produce the following error :
