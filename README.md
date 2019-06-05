@@ -10,6 +10,8 @@
   - **Transitive**
   - **Cyclic**
   - **Qualified**
+  - **Observable**
+  - **Aggregator**
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
 
@@ -155,7 +157,15 @@ error: cyclic dependence involving moduleA requires moduleA;
  ``` JAVA
   java --module-path out5 -m moduleB/pack1.Test
  ```
-  
+ 
+---
+# 6. Observable 
 
+//TODO
+
+---
+# 7. Aggregator 
+
+//TODO
 
 
