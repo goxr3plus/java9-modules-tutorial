@@ -172,6 +172,14 @@ error: cyclic dependence involving moduleA requires moduleA;
 ---
 # 8. Module Graph 
 
-//TODO
+![chrome_2019-06-06_10-39-20](https://user-images.githubusercontent.com/20374208/59015559-f53d4680-8847-11e9-945f-8880116a45ce.png)
+![chrome_2019-06-06_10-39-54](https://user-images.githubusercontent.com/20374208/59015560-f53d4680-8847-11e9-9b55-7c3767b8264a.png)
+![2019-06-06_10-41-03](https://user-images.githubusercontent.com/20374208/59015561-f5d5dd00-8847-11e9-95ef-31ded987811f.png)
+![chrome_2019-06-06_10-41-31](https://user-images.githubusercontent.com/20374208/59015562-f5d5dd00-8847-11e9-9f05-85de1c2eb3be.png)
+![chrome_2019-06-06_10-41-51](https://user-images.githubusercontent.com/20374208/59015563-f5d5dd00-8847-11e9-8184-fc516f8e8dea.png)
+![chrome_2019-06-06_10-42-03](https://user-images.githubusercontent.com/20374208/59015564-f5d5dd00-8847-11e9-89c2-6b852219c4b1.png)
+![chrome_2019-06-06_10-42-12](https://user-images.githubusercontent.com/20374208/59015566-f66e7380-8847-11e9-86ab-d7e6799a866a.png)
+![chrome_2019-06-06_10-42-23](https://user-images.githubusercontent.com/20374208/59015567-f66e7380-8847-11e9-94c6-86080734321b.png)
+
 
 
