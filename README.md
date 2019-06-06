@@ -7,17 +7,15 @@ I tried to make a more simple , including code examples and pictures tutorial ab
 
 
 - **Contents**
-  - **Simple module**
-  - **Optional**
-  - **Transitive**
-  - **Cyclic**
-  - **Qualified**
-  - **Observable**
-  - **Aggregator**
-  - **Module Graph**
+  - **Simple module** [**Go**](#1)
+  - **Optional** [**Go**](#2)
+  - **Transitive** [**Go**](#3)
+  - **Cyclic** [**Go**](#4)
+  - **Qualified** [**Go**](#5)
+  - **Observable** [**Go**](#6)
+  - **Aggregator** [**Go**](#7)
+  - **Module Graph** [**Go**](#8)
   
- 
-  [create an anchor](#anchors-in-markdown)
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
 
@@ -31,13 +29,13 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ---
 # 1. ------------------- Simple module -------------------
+<a name="1"></a>
 
 ![chrome_2019-06-05_11-43-36](https://user-images.githubusercontent.com/20374208/58942863-433e4580-8787-11e9-829d-cda9256aaef9.png)
 ![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954143-f9faef80-87a0-11e9-8e8c-452c2511be3f.png)
 ![chrome_2019-06-05_14-47-58](https://user-images.githubusercontent.com/20374208/58954144-f9faef80-87a0-11e9-8cfd-7376aa3816dd.png)
 
-##### Ps i have provided all the code in folders so you don't have to manually type it ;)
- <a name="anchors-in-markdown"></a>Take me there
+##### Ps i have provided all the code in folders so you don't have to manually type it ;
   Compile :
   
   ``` JAVA
@@ -51,7 +49,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   ```
 
 ---
-# 2. ------------------- Optional ------------------- 
+# 2. ------------------- Optional -------------------
+<a name="2"></a>
 
 ![chrome_2019-06-05_13-44-20](https://user-images.githubusercontent.com/20374208/58950802-3e35c200-8798-11e9-816b-f8305c705c10.png)
 ![chrome_2019-06-05_13-48-10](https://user-images.githubusercontent.com/20374208/58950963-a5ec0d00-8798-11e9-9b93-60847615f067.png)
@@ -74,6 +73,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ---
 # 3. ------------------- Transitive -------------------  
+<a name="3"></a>
 
 ![chrome_2019-06-05_13-36-59](https://user-images.githubusercontent.com/20374208/58950535-b780e500-8797-11e9-8af0-34e5bf10a33d.png)
 ![chrome_2019-06-05_13-37-16](https://user-images.githubusercontent.com/20374208/58950537-b780e500-8797-11e9-9016-54cada9774b8.png)
@@ -96,6 +96,7 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ---
 # 4. ------------------- Cyclic ------------------- 
+<a name="4"></a>
 
 ![chrome_2019-06-05_11-32-23](https://user-images.githubusercontent.com/20374208/58942031-a038fc00-8785-11e9-802d-7349461d92fc.png)
 ![chrome_2019-06-05_11-32-32](https://user-images.githubusercontent.com/20374208/58942032-a0d19280-8785-11e9-9c9c-c1ed6abdf6c1.png)
@@ -117,6 +118,7 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 ---
 # 5. ------------------- Qualified -------------------  
+<a name="5"></a>
 
 ![chrome_2019-06-05_13-53-55](https://user-images.githubusercontent.com/20374208/58951282-5eb24c00-8799-11e9-8805-96f8d9f2bcb1.png)
 ![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954268-5c53f000-87a1-11e9-886e-2316b1390602.png)
@@ -165,7 +167,8 @@ error: cyclic dependence involving moduleA requires moduleA;
  ```
  
 ---
-# 6. ------------------- Observable -------------------  
+# 6. ------------------- Observable -------------------
+<a name="6"></a>
 
 ![chrome_2019-06-06_18-33-04](https://user-images.githubusercontent.com/20374208/59045888-8e408180-8889-11e9-8d03-d5ec84ae2e83.png)
 
@@ -186,6 +189,7 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 ---
 # 7. ------------------- Aggregator -------------------  
+<a name="7"></a>
 
 ![chrome_2019-06-06_18-16-35](https://user-images.githubusercontent.com/20374208/59044922-c0e97a80-8887-11e9-8d0b-a1d23231b3f6.png)
 ![chrome_2019-06-06_18-16-48](https://user-images.githubusercontent.com/20374208/59044927-c0e97a80-8887-11e9-9ede-ade53122ce5a.png)
@@ -211,6 +215,7 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 ---
 # 8. ------------------- Module Graph -------------------  
+<a name="8"></a>
 
 ![chrome_2019-06-06_10-39-20](https://user-images.githubusercontent.com/20374208/59015559-f53d4680-8847-11e9-945f-8880116a45ce.png)
 ![chrome_2019-06-06_10-48-39](https://user-images.githubusercontent.com/20374208/59015940-d4c1bc00-8848-11e9-9b26-d41013453b80.png)
