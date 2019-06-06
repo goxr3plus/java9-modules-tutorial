@@ -27,8 +27,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
 ![chrome_2019-06-05_11-41-00](https://user-images.githubusercontent.com/20374208/58942638-cf9c3880-8786-11e9-8ddd-76c120c49d6f.png)
 
-<a name="1"></a>
----
+
+---<a name="1"></a>
 # 1. ------------------- Simple module -------------------
 
 ![chrome_2019-06-05_11-43-36](https://user-images.githubusercontent.com/20374208/58942863-433e4580-8787-11e9-829d-cda9256aaef9.png)
@@ -48,9 +48,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
   java --module-path out1 -m moduleA/pack1.Main
   ```
 
----
+---<a name="2"></a>
 # 2. ------------------- Optional -------------------
-<a name="2"></a>
 
 ![chrome_2019-06-05_13-44-20](https://user-images.githubusercontent.com/20374208/58950802-3e35c200-8798-11e9-816b-f8305c705c10.png)
 ![chrome_2019-06-05_13-48-10](https://user-images.githubusercontent.com/20374208/58950963-a5ec0d00-8798-11e9-9b93-60847615f067.png)
