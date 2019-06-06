@@ -87,8 +87,8 @@ Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](http
 
   Run :
   
-  ``` JAVA
-  java --module-path out3 -m moduleC/pack3.Main
+ ``` JAVA
+ java --module-path out3 -m moduleC/pack3.Main
  ```
 
 ---
@@ -164,12 +164,44 @@ error: cyclic dependence involving moduleA requires moduleA;
 ---
 # 6. Observable 
 
-//TODO
+ Compile :
+  
+ ``` JAVA
+ //TODO
+ ```
+
+
+ Run :
+  
+ ``` JAVA
+  //TODO
+ ```
+
 
 ---
 # 7. Aggregator 
 
-//TODO
+![chrome_2019-06-06_18-16-35](https://user-images.githubusercontent.com/20374208/59044922-c0e97a80-8887-11e9-8d0b-a1d23231b3f6.png)
+![chrome_2019-06-06_18-16-48](https://user-images.githubusercontent.com/20374208/59044927-c0e97a80-8887-11e9-9ede-ade53122ce5a.png)
+![chrome_2019-06-06_18-17-36](https://user-images.githubusercontent.com/20374208/59044928-c0e97a80-8887-11e9-8e97-390ad24e84e8.png)
+![chrome_2019-06-06_18-17-52](https://user-images.githubusercontent.com/20374208/59044929-c1821100-8887-11e9-849e-f08d8ef584a7.png)
+![chrome_2019-06-06_18-18-59](https://user-images.githubusercontent.com/20374208/59044930-c1821100-8887-11e9-90fa-4001217bdffe.png)
+![chrome_2019-06-06_18-19-16](https://user-images.githubusercontent.com/20374208/59044931-c1821100-8887-11e9-92a1-d29cf3301e3b.png)
+![chrome_2019-06-06_18-19-35](https://user-images.githubusercontent.com/20374208/59044933-c1821100-8887-11e9-94cd-a8fca4208ba4.png)
+
+ Compile :
+  
+ ``` JAVA
+ //TODO
+ ```
+
+
+ Run :
+  
+ ``` JAVA
+  //TODO
+ ```
+
 
 ---
 # 8. Module Graph 
