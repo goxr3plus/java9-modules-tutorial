@@ -1,12 +1,11 @@
 # Java 9 ++ modules full tutorial
 #### Everything is tested with JDK 11.0.3
 ![Logging-Sins-793x397](https://user-images.githubusercontent.com/20374208/58885740-674c4900-86eb-11e9-9448-b0af3d8b52c0.png)
-### Complety PDF with tutorial [download](https://github.com/goxr3plus/java9-modules-tutorial/files/3256292/JPMS.PDF)
+### Complete PDF for the tutorial [download](https://github.com/goxr3plus/java9-modules-tutorial/files/3256292/JPMS.PDF)
 
-I tried to make a more simple , including code examples and pictures tutorial about a *hot and important topic* whhich is nothing else than JPMS which came in Java 9. I hope you enjoy :
+I tried to make a simple yet fun, including code examples and pictures tutorial about a **hot and important topic** which is JPMS([**Java Platform Module System**](https://en.wikipedia.org/wiki/Java_Platform_Module_System)) which came in Java 9.
 
-
-- **Contents**
+- **Tutorial Contents**
   - [**Simple module**](#1)
   - [**Optional**](#2)
   - [**Transitive**](#3)
@@ -15,6 +14,8 @@ I tried to make a more simple , including code examples and pictures tutorial ab
   - [**Observable**](#6)
   - [**Aggregator**](#7)
   - [**Module Graph**](#8)
+  - [**Package Naming Conflicts**](#9)
+  - [**Module Resolution Process**](#10)
   
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
@@ -201,14 +202,14 @@ error: cyclic dependence involving moduleA requires moduleA;
  Compile :
   
  ``` JAVA
-  javac --module-source-path aggregator_module -d out6 -m aggregator,moduleA,moduleB,moduleC,useModule
+  javac --module-source-path aggregator_module -d out7 -m aggregator,moduleA,moduleB,moduleC,useModule
  ```
  
 
  Run :
   
  ``` JAVA
-  java --module-path out6 -m useModule/pack4.Main
+  java --module-path out7 -m useModule/pack4.Main
  ```
 
 
@@ -226,5 +227,49 @@ error: cyclic dependence involving moduleA requires moduleA;
 ![chrome_2019-06-06_10-42-12](https://user-images.githubusercontent.com/20374208/59015566-f66e7380-8847-11e9-86ab-d7e6799a866a.png)
 ![chrome_2019-06-06_10-42-23](https://user-images.githubusercontent.com/20374208/59015567-f66e7380-8847-11e9-94c6-86080734321b.png)
 
+<a name="9"></a>
+---
+# 9. ------------ Package Naming Conflicts ------------
 
+![chrome_2019-06-10_15-49-59](https://user-images.githubusercontent.com/20374208/59196550-af5de680-8b97-11e9-843c-59b4384d03aa.png)
+![chrome_2019-06-10_15-50-33](https://user-images.githubusercontent.com/20374208/59196552-af5de680-8b97-11e9-8635-ba5702194a6b.png)
+![chrome_2019-06-10_15-50-45](https://user-images.githubusercontent.com/20374208/59196553-af5de680-8b97-11e9-9496-023ec2b7b821.png)
+![chrome_2019-06-10_15-51-00](https://user-images.githubusercontent.com/20374208/59196554-aff67d00-8b97-11e9-81b9-2617b95b2389.png)
 
+ Compile :
+  
+ ``` JAVA
+  javac  --module-source-path name_conflicts_module -d out9 -m moduleA,moduleB,useModule
+ ```
+ 
+ This will produce the following error :
+
+``` JAVA
+error: module useModule reads package pack1 from both moduleA and moduleB
+module useModule{
+^
+1 error
+```
+
+<a name="10"></a>
+---
+# 10. ------------ Module Resolution Process ------------ 
+
+![chrome_2019-06-10_16-06-02](https://user-images.githubusercontent.com/20374208/59197415-f64cdb80-8b99-11e9-8ed9-5ec4b7add576.png)
+![chrome_2019-06-10_16-06-35](https://user-images.githubusercontent.com/20374208/59197416-f64cdb80-8b99-11e9-98ac-38c11509130f.png)
+![chrome_2019-06-10_16-06-51](https://user-images.githubusercontent.com/20374208/59197418-f64cdb80-8b99-11e9-9668-8e8060923af4.png)
+![chrome_2019-06-10_16-07-02](https://user-images.githubusercontent.com/20374208/59197419-f64cdb80-8b99-11e9-90a3-b377c3f34cc8.png)
+![chrome_2019-06-10_16-07-38](https://user-images.githubusercontent.com/20374208/59197420-f64cdb80-8b99-11e9-8680-b230fac2b96c.png)
+![chrome_2019-06-10_16-07-46](https://user-images.githubusercontent.com/20374208/59197421-f6e57200-8b99-11e9-9ab7-f97a06f3b3c7.png)
+
+ Compile :
+  
+ ``` JAVA
+   javac --java-module-path resolution_process_module -d out10 -m useModule,moduleA,moduleB,moduleC,moduleD
+ ```
+ 
+  Run :
+  
+ ``` JAVA
+   java --module-path out10 --show-module-resolution -m useModule
+ ```
