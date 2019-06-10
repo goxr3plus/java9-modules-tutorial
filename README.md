@@ -245,8 +245,12 @@ error: cyclic dependence involving moduleA requires moduleA;
  
  This will produce the following error :
 
-![cmd_2019-06-10_16-02-24](https://user-images.githubusercontent.com/20374208/59197146-33fd3480-8b99-11e9-8925-c7639611de70.png)
-
+``` JAVA
+error: module useModule reads package pack1 from both moduleA and moduleB
+module useModule{
+^
+1 error
+```
 
 <a name="10"></a>
 ---
