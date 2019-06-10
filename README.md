@@ -201,14 +201,14 @@ error: cyclic dependence involving moduleA requires moduleA;
  Compile :
   
  ``` JAVA
- //TODO
+  javac --module-source-path aggregator_module -d out6 -m aggregator,moduleA,moduleB,moduleC,useModule
  ```
-
+ 
 
  Run :
   
  ``` JAVA
-  //TODO
+  java --module-path out6 -m useModule/pack4.Main
  ```
 
 
