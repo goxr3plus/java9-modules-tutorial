@@ -11,7 +11,7 @@ I tried to make a more simple , including code examples and pictures tutorial ab
   - [**Optional**](#2)
   - [**Transitive**](#3)
   - [**Cyclic**](#4)
-  - [**Qualified**](#5)
+  - [**Qualified Exports**](#5)
   - [**Observable**](#6)
   - [**Aggregator**](#7)
   - [**Module Graph**](#8)
@@ -116,7 +116,7 @@ error: cyclic dependence involving moduleA requires moduleA;
 
 <a name="5"></a>
 ---
-# 5. ------------------- Qualified -------------------  
+# 5. ------------------- Qualified Exports-------------------  
 
 ![chrome_2019-06-05_13-53-55](https://user-images.githubusercontent.com/20374208/58951282-5eb24c00-8799-11e9-8805-96f8d9f2bcb1.png)
 ![chrome_2019-06-05_14-47-44](https://user-images.githubusercontent.com/20374208/58954268-5c53f000-87a1-11e9-886e-2316b1390602.png)
