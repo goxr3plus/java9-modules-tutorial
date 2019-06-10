@@ -5,7 +5,7 @@
 
 I tried to make a simple yet fun, including code examples and pictures tutorial about a **hot and important topic** which is JPMS([**Java Platform Module System**](https://en.wikipedia.org/wiki/Java_Platform_Module_System)) which came in Java 9.
 
-- **Contents**
+- **Tutorial Contents**
   - [**Simple module**](#1)
   - [**Optional**](#2)
   - [**Transitive**](#3)
