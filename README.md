@@ -203,14 +203,14 @@ error: cyclic dependence involving moduleA requires moduleA;
  Compile :
   
  ``` JAVA
-  javac --module-source-path aggregator_module -d out6 -m aggregator,moduleA,moduleB,moduleC,useModule
+  javac --module-source-path aggregator_module -d out7 -m aggregator,moduleA,moduleB,moduleC,useModule
  ```
  
 
  Run :
   
  ``` JAVA
-  java --module-path out6 -m useModule/pack4.Main
+  java --module-path out7 -m useModule/pack4.Main
  ```
 
 
@@ -238,6 +238,12 @@ error: cyclic dependence involving moduleA requires moduleA;
 ![chrome_2019-06-10_15-51-00](https://user-images.githubusercontent.com/20374208/59196554-aff67d00-8b97-11e9-81b9-2617b95b2389.png)
 ![chrome_2019-06-10_15-51-19](https://user-images.githubusercontent.com/20374208/59196555-aff67d00-8b97-11e9-888b-31ccb5144708.png)
 
+ Compile :
+  
+ ``` JAVA
+  javac --module-source-path name_conflicts_module -d out9 -m aggregator,moduleA,moduleB,moduleC,useModule
+ ```
+ 
 <a name="10"></a>
 ---
 # 10. ------------ Module Resolution Process ------------  
