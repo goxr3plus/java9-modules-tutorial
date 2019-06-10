@@ -265,5 +265,11 @@ module useModule{
  Compile :
   
  ``` JAVA
-   //TODO
+   javac --java-module-path resolution_process_module -d out10 -m useModule,moduleA,moduleB,moduleC,moduleD
+ ```
+ 
+  Run :
+  
+ ``` JAVA
+   java --module-path out10 --show-module-resolution -m useModule
  ```
