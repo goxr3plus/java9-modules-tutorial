@@ -15,6 +15,8 @@ I tried to make a more simple , including code examples and pictures tutorial ab
   - [**Observable**](#6)
   - [**Aggregator**](#7)
   - [**Module Graph**](#8)
+  - [**Package Naming Conflicts**](#9)
+  - [**Module Resolution Process**](#10)
   
 
 Highly based on  [ java-9-new-features-in-simple-way-jshell-jpms-and-more ](https://www.udemy.com/java-9-new-features-in-simple-way-jshell-jpms-and-more/) and [Jenkov Tutorials](http://tutorials.jenkov.com/java/modules.html)
@@ -226,5 +228,17 @@ error: cyclic dependence involving moduleA requires moduleA;
 ![chrome_2019-06-06_10-42-12](https://user-images.githubusercontent.com/20374208/59015566-f66e7380-8847-11e9-86ab-d7e6799a866a.png)
 ![chrome_2019-06-06_10-42-23](https://user-images.githubusercontent.com/20374208/59015567-f66e7380-8847-11e9-94c6-86080734321b.png)
 
+<a name="9"></a>
+---
+# 9. ------------ Package Naming Conflicts ------------
 
+![chrome_2019-06-10_15-49-59](https://user-images.githubusercontent.com/20374208/59196550-af5de680-8b97-11e9-843c-59b4384d03aa.png)
+![chrome_2019-06-10_15-50-33](https://user-images.githubusercontent.com/20374208/59196552-af5de680-8b97-11e9-8635-ba5702194a6b.png)
+![chrome_2019-06-10_15-50-45](https://user-images.githubusercontent.com/20374208/59196553-af5de680-8b97-11e9-9496-023ec2b7b821.png)
+![chrome_2019-06-10_15-51-00](https://user-images.githubusercontent.com/20374208/59196554-aff67d00-8b97-11e9-81b9-2617b95b2389.png)
+![chrome_2019-06-10_15-51-19](https://user-images.githubusercontent.com/20374208/59196555-aff67d00-8b97-11e9-888b-31ccb5144708.png)
+
+<a name="10"></a>
+---
+# 10. ------------ Module Resolution Process ------------  
 
