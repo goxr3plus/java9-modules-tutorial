@@ -1,0 +1,5 @@
+module useModule{
+
+    requires aggregator;
+
+}
